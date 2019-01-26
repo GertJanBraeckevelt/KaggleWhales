@@ -1,6 +1,5 @@
 import tensorflow as tf
-
-
+from tensorflow.python.ops import array_ops, math_ops
 
 def tf_print(op, tensors, message=None):
     def print_message(x):
